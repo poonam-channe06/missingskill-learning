@@ -2,14 +2,6 @@
 
  # LINUX 
 
-
-## History of Linux 
-
-
-
-
-
-
 > Kernel : Linux kernel is the core part of the operating system. It establishes communication between the devices.  It basically acts as an interface between user applications and hardware. 
 
 >Shell :  A shell is a user program which providing us to interface to use operationg system.
@@ -72,11 +64,11 @@
 
 
 <!-- ---------------------------------------------------------------------- -->
+
+
+## Linux File System
+
 <p align="center"/><img src="Images\file system_1.jpg" />
-
-## Linux File System and Data Stucture
-
-
 
 | Directory     | Explanation           |
 | ------------- | -------------         |

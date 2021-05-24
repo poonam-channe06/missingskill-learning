@@ -10,25 +10,25 @@
 
 
 <!-- What is repository -->
-<p align="center"/><img src="Images\repository _1.jpg" width="90%" />
+<p align="center"/><img src="Images\repository _1.jpg" width="60%" />
 
 
 
 
 <!-- Github Branching -->
 
-<p align="center"/><img src="Images\github_1.jpg" width="90%" />
+<p align="center"/><img src="Images\github_1.jpg" width="60%" />
 
-<p align="center"/><img src="Images\github2_1.jpg" width="90%" />
+<p align="center"/><img src="Images\github2_1.jpg" width="60%" />
 
 
-<p align="center"/><img src="Images\github5_1.jpg" width="90%" />
+<p align="center"/><img src="Images\github5_1.jpg" width="60%" />
 
 <!-- Git and GitHub -->
 
 
 
-<p align="center"/><img src="Images\gitvsgithub_1.jpg" width="90%" />
+<p align="center"/><img src="Images\gitvsgithub_1.jpg" width="60%" />
 
 
 <p>It initializes and creates a new repository</p>

@@ -2,7 +2,8 @@
 # Basic building Block of Web Development
 
 
-## IP  : 
+## IP  
+
 * IP stands for Internet Protocol.
 
 * Internet protocol is the communications protocol that is address assigned to each device to connected to the network.
@@ -11,40 +12,34 @@
 
 <!-- image of Ip address  -->
 
-<p align="center"/><img src="Images\web_1.jpg" width="500" />
-<p align="center"/><img src="Images\web2_1.jpg" width="500" />
+<p align="center"/><img src="Images\web_1.jpg" width="60%" />
+<p align="center"/><img src="Images\web2_1.jpg" width="60%" />
 
 
 <!-- Ipv4 vs Ipv6 -->
 <!-- Image -->
-<p align="center"/><img src="Images\ipv4v6_1.jpg" width="500" />
+<p align="center"/><img src="Images\ipv4v6_1.jpg" width="60%" />
 
 
 <!-- Port Number -->
-## Port Number :
+## Port Number
 
 * Port number related to to the network addressing.
 *Port Number, which helps to get connected with a particular server.
 
 
 
- ### Server :
+ ### Server 
 
  <p> A server is a hardware and software devices which bascially take a request from thhe client or user and give it back to response.</p>
 
- ### Web server : 
+ ### Web server
 
  <p>Websites is a collection of web pages while web server is a software that respond to the request for the resources. </p>
 
 
-
-
-
-
-
-
 <!-- HTTP Verbs -->
-## HTTP Verbs : 
+## HTTP Verbs
 
 
  > HTTP verb nothing but the set of requests methods to indicate the action to be performed for the given resource.
@@ -61,11 +56,10 @@
 |               |                                           |
 
 
-
+---
 
 
 # JAVASCRIPT
-
 
 
 ## WHAT IS JAVASCRIPT?

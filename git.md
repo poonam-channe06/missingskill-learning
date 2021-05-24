@@ -17,18 +17,18 @@
 
 <!-- Github Branching -->
 
-<p align="center"/><img src="Images\github_1.jpg" width="400" />
+<p align="center"/><img src="Images\github_1.jpg" />
 
-<p align="center"/><img src="Images\github2_1.jpg" width="400" />
+<p align="center"/><img src="Images\github2_1.jpg" />
 
 
-<p align="center"/><img src="Images\github5_1.jpg" width="800" />
+<p align="center"/><img src="Images\github5_1.jpg" />
 
 <!-- Git and GitHub -->
 
 
 
-<p align="center"/><img src="Images\gitvsgithub_1.jpg" width="800" />
+<p align="center"/><img src="Images\gitvsgithub_1.jpg" />
 
 
 <p>It initializes and creates a new repository</p>

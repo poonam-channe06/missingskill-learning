@@ -53,7 +53,7 @@
 | DELETE        | It will delete the specified resources.   |
 | CONNECT       | It will establish the tunnel to the server identify by the resource.                                                   |
 | OPTIONS       | It will describe communication options for the target resouce.                                                    |
-|               |                                           |
+
 
 
 ---

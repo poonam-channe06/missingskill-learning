@@ -22,7 +22,7 @@
 <p align="center"/><img src="Images\github2_1.jpg" width="60%" />
 
 
-<p align="center"/><img src="Images\github5_1.jpg" width="80%" />
+<p align="center"/><img src="Images\github5_1.jpg" />
 
 <!-- Git and GitHub -->
 

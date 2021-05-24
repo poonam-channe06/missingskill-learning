@@ -37,8 +37,6 @@
 ```BASH
 git init
 ```
- 
-<br />
 
 
 ```BASH

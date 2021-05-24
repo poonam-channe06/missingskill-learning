@@ -58,8 +58,11 @@
 
 ---
 
+<br/>
+<br/>
 
 # JAVASCRIPT
+<br/>
 
 
 ## WHAT IS JAVASCRIPT?
@@ -71,33 +74,32 @@
 
 * Scripts are provided and exceuted as plain text.They don't need special preparation or compilation to run.
 
-
-
-<!-- links -->
-
-[Gradient Generator](https://github.com/poonam-channe06/Gradient-Generator)
-
-[Gradient Generator](https://github.com/poonam-channe06/Gradient-Generator "Gradient-Generator")
-
+<br/>
 
 
 ## Javascript Datatypes:
 
-* Primitive Datatypes :
-1. Number 
-2. String
-3. Boolean 
-4. Undefined
-5. Symbol
-6. Null
+<br/>
 
-* Non-primitive Datatypes :
-1. Object 
-2. Array
+* **Primitive Datatypes** 
+    1. Number 
+    2. String
+    3. Boolean 
+    4. Undefined
+    5. Symbol
+    6. Null
+
+* **Non-primitive Datatypes** 
+    1. Object 
+    2. Array
   
 
-## Primitive DataTypes : 
-### 1] Number:
+## Primitive DataTypes 
+
+<br/>
+
+### 1. Number
+<br/>
 
 ```JS
 3+4 = 7
@@ -107,9 +109,13 @@
 
 "%" => Modulo - It gives us the Remainder.
 ```
-    
-### 2] String :
-<p>Its just a text. all we need to do is let javascript know that we are wrting a piece of text is "Double-quote"</p>
+<br/>
+
+### 2. String 
+
+
+<p><strong>String</strong> is just a text. all we need to do is let javascript know that we are writing a piece of text is in "Double-quote"</p>
+<br/>
 
 ```JS
 "Hello" + "there" = "Hellothere"
@@ -119,9 +125,12 @@ We can add strings.
 'This isn\'t very nice' = 'This isn't very nice' 
 ['\] => This backslash has special meaning.It means whatever come after '\' is not piece of string.
 ```
+<br/>
 
-### 3] Boolean : 
+### 3. Boolean
 <p>Boolean means just 'true' or 'false'. Somtimes that represents as 1's and 0's</p>
+
+<br/>
 
 ```JS
 3 > 2 = 'TRUE'
@@ -130,18 +139,25 @@ We can add strings.
 In javascript if we want to say something is equal to somthing then we have to say '==='.
 now 3 === 3 = 'TRUE'
 ```
+<br/>
 
-
-### 4] Undefined :
+### 4. Undefined
 <p>As the name suggest this means that the variable has not been assigned</p>
+
+<br/>
 
 ```JS
 var b; = Undefined
 var password = Undefined
 ```
 
-### 5] Symbol : 
-<p> Javascript ES6(ECMAscript version 6) introduced a primitive data type called 'symbol'. Symbols are immutable that means they can not changed</p>
+<br/>
+
+### 5. Symbol
+
+<p> Javascript ES6(ECMAscript version 6) introduced a primitive data type called <strong>symbol</strong>. Symbols are immutable that means they can not changed</p>
+
+<br/>
 
 ```JS
  const symbol1 = symbol();
@@ -152,19 +168,27 @@ var password = Undefined
  sym2  // symbol("hello!")
  ```
 
-### 6] Null :
+<br/>
+
+### 6. Null
 <p>A NULL means absense of value. You can assign null to a variable to show that currently that variables does not have any value.</p>
+
+<br/>
 
 ```js
 var myPassword = null;
 ```
+<br/>
 
+## Non-Primitive Datatypes 
 
-## Non-Primitive Datatypes :
+<br/>
 
-### 1] Array :
+### 1. Array
  
- <p>Array is a variable that is used to store different elements. It is often used when we want to store list of elements.</p>
+ <p><strong>Array</strong> is a variable that is used to store different elements. It is often used when we want to store list of elements.</p>
+
+<br/>
 
  ```js
  var mixedList = ["apples","3","undefined","true","function apple(){
@@ -211,10 +235,14 @@ myNewlist //["lion","mouse","elephant","bee","deer"]
 
 ```
 
+<br/>
 
- ### 2] Object :
- <p>Object is nothing but the collection of property.
- objects always in a key:value pair.</p>
+
+ ### 2. Object
+ <p><strong>Object</strong> is nothing but the collection of properties.
+ objects are always in a key:value pair.</p>
+
+<br/>
 
  ```js
  //eg1
@@ -275,16 +303,58 @@ user.spells[1]
  // list[0].password => "@1234" 
  
  ```
+<br/>
 
 
-## Javascript Logical Operators :
+## Javascript Variables :
 
-1. AND (&&) 
-2. OR (||)
-3. NOT (!)
+1. var
+2. let
+3. const
+
+<br/>
+
+**Rules**
+
+ 1. It needs to start with letter.
+ 2. It can end with the number.
+ 3. It can't start with a symbol.
+ 4. A variable also start with a '$' or '_'.
+ 5. Camelcasing should be there.
 
 
-### AND (&&):
+### 1. var
+<p>It is a type of javascript variable.Which is used to store the value</p>
+
+<br/>
+
+```js
+var george : "These pretzelas are making me thirsty" + "!";
+
+ => "These pretzelas are making me thirsty!"
+ ```
+
+<br/>
+
+<!-- let and const images -->
+<p align="center"/><img src="Images\letandconst.png" width="550" />
+
+<br/>
+<br/>
+
+## Javascript Logical Operators 
+
+<br/>
+
+1. AND **&&** 
+2. OR **||**
+3. NOT **!**
+
+<br/>
+
+### AND **&&**
+
+<br/>
 
 ```JS
 var firstName = "Bob";
@@ -296,11 +366,13 @@ if(firstName === "Bob" && lastName === "Marley"){
 var lastName = "Smith";
  => Undefined
 
- ````
+ ```
+<br/>
 
 
+### OR  **||**
 
-### OR (| |);
+<br/>
 
 ```JS
 if(firstName === "Billy" && lastName === "eilish"){
@@ -308,9 +380,9 @@ if(firstName === "Billy" && lastName === "eilish"){
 }
 ```
 
+<br/>
 
-
-### NOT (!) :
+### NOT **!**
 
 ```JS
 if(!(name === "Bob")){
@@ -319,18 +391,23 @@ if(!(name === "Bob")){
  !true => false
  !false => true
  ```
+<br/>
 
 
+## Javascript Conditions 
+<br/>
 
-## Javascript Conditions :
 1. if
 2. if-else
 3. else if
 4. tenery operator
 5. switch
 
+<br/>
 
-### 1]  if :
+### 1. if 
+
+<br/>
 
 ```js
 var name = "billy";
@@ -341,9 +418,11 @@ if(name === "billy"){
 name = "susy";
 //now if we try to run the program no alert message will be there.
 ```
+<br/>
 
+### 2. if-else
 
-### 2] if-else:
+<br/>
 
 ```js
 var name = "billy";
@@ -353,9 +432,11 @@ if(name === "billy"){
     alert("I dont know you!")
 }
 ```
+<br/>
 
+### 3. else if
 
-### 3] else if:
+<br/>
 
 ```js
 var name = "billy";
@@ -368,7 +449,11 @@ if(name === "billy"){
 }
 ```
 
-### 4] tenray operator :
+<br/>
+
+### 4. tenray operator 
+
+<br/>
 
 ```js
 syntax:
@@ -378,10 +463,13 @@ Condition ? Expression1 : Expression2
 var password = isUserValid(true)? "You may enter" : "Access Denied"
 ```
 
+<br/>
 
-### 5] switch :
+### 5. switch
 
 <p>When there is more than one different cases the we will go for the switch.</p>
+
+<br/>
 
 ```js
 function movCommand(direction){
@@ -411,11 +499,13 @@ function movCommand(direction){
 //=> "You encounter the monster"
 
 ```
-
+<br/>
 
 ### Scopes in Javascript :
 
-* The Scope which manages the accessibility of variables.
+The Scope which manages the accessibility of variables.
+
+<br/>
 
 ```js
 const password = "@1234";
@@ -429,9 +519,12 @@ console.log(passsword); //Referance error!
 
 // The if  code block craete a scope for password variable and this variable can access only within this scope only. Within the scope we can console log it but outside the scope variable is not asccessible.
 ```
+<br/>
 
-* Block scope :
+**Block scope**
  <p> A block of code in Javascript defines a scope for variables declared using let and const.</p>
+
+<br/>
 
  ```js
  if(true){
@@ -451,9 +544,13 @@ console.log(passsword); //Referance error!
 // if,while,for these loops crete the block scopes and in this mostly let and const variables are used.
  ```
 
+<br/>
 
-* Function scope :
+**Function scope**
+
 <p>A Function in a javascriptdefines a scope for vaeiables declared using var, let and const. </p>
+
+<br/>
 
 ```js
 function walk(){
@@ -464,51 +561,38 @@ console.log(msg); // Referance Error!!
 
 // walk function creates a function scope. The variable msg is accessible inside of the function scope but not accessible outside the function scope.
 ```
+<br/>
 
-*global scope :
+**Global scope** 
 ``` js 
 1. The Global scope is the outermost scope. It is accessible form any inner scope.
 2. window and document are the global variablles supplied by the browser.
 ```
-## Javascript Variables :
-
-1. var
-2. let
-3. const
-
-* Rules :
- 1. It needs to start with letter.
- 2. It can end with the number.
- 3. It can't start with a symbol.
- 4. A variable also start with a '$' or '_'.
- 5. Camelcasing should be there.
+<br/>
 
 
-### 1] var :
-<p>It is a type of javascript variable.Which is used to store the value</p>
+## Javascript Functions 
 
-```js
-var george : "These pretzelas are making me thirsty" + "!";
+<p>Without functions javascript wouldn't do anything. The beauty is thst functions can perform one action or multiple actions. eg. alert(),  prompt() </p>
 
- => "These pretzelas are making me thirsty!"
- ```
-
-<!-- let and const images -->
-<p align="center"/><img src="Images\letandconst.png" width="550" />
-
-
-## Javascript Functions :
-
-#### <p>Without functions javascript wouldn't do anything. The beauty is thst functions can perform one action or multiple actions. eg. alert(),  prompt() </p>
+<br/>
 
 <!-- images of functions -->
 <p align="center"/><img src="Images\Functions.png" width="550" />
 
- *  Arrow Functions :
- <p> Arrow function is one oo the features introduced in ES6 of javascript.</p>
+<br/>
+<br/>
+
+### Arrow Functions
+
+<br/>
+
+ <p> Arrow function is one of the features introduced in ES6 of javascript.</p>
  <p>It allows us to create function in a cleaner way compare to the regular way.</p>
  <p>Arrow function have more concise syntax.</p>
 
+
+<br/>
 
 ```js
 const sum = function sum(a,b) {
@@ -538,15 +622,21 @@ document.addEventListener ('click',function() {
 document.addEventListener ('click',function() => console.log('click);
 ```
 
+<br/>
 
-* Callback Functions :
+
+### Callback Functions 
+
 <p>Pasing a function into another funcation is called as the callback function.</p>
 
 Suppose we have a button with the id of btn
 
+<br/>
+
 ```html
 <button id = "btn">Save</button>
 ```
+
 ```js
 btn.addEventListener ("click", addListAfterClick);
 btn.addEventListener ("keypress", addListAfterClick);
@@ -555,16 +645,23 @@ btn.addEventListener ("keypress", addListAfterClick);
 function addListAfterClick(){
     --code--
 }
-```
-```html
+
+'''
 1. This is called callback function. When this line of code runs in javascript,we dont want the addListAfterClick function to run beacause we are just addding the event listeners now to wait for a click or keypress.
+
 2. We want to let it know this action to happen when a click or keypress happens. 
+
 3. So the function now automatically gets run every time click happens, so we are pasing referance to the function without calling it.
+
+'''
 ```
 
+<br/>
 
 
-## PassByValue vs PassByReferance :
+## Pass By Value vs Pass By Referance 
+<br/>
+
 <!-- images -->
 <p align="center"/><img src="Images\passbyvalue_1 (1).jpg" width="500" />
 

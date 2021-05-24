@@ -73,6 +73,7 @@
 
 <!-- ---------------------------------------------------------------------- -->
 <p align="center"/><img src="Images\file system_1.jpg" />
+
 ## Linux File System and Data Stucture
 
 

@@ -10,7 +10,7 @@
 
 
 <!-- What is repository -->
-<p align="center"/><img src="Images\repository _1.jpg" width="400" />
+<p align="center"/><img src="Images\repository _1.jpg" />
 
 
 

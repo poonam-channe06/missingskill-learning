@@ -15,7 +15,7 @@
 >Shell :  A shell is a user program which providing us to interface to use operationg system.
 
 <!-- images -->
-<p align="center"/><img src="Images\linux_1.jpg" width="500" />
+<p align="center"/><img src="Images\linux_1.jpg" width="70%" />
 
 
 
@@ -72,7 +72,7 @@
 
 
 <!-- ---------------------------------------------------------------------- -->
-<p align="center"/><img src="Images\file system_1.jpg" width="500" />
+<p align="center"/><img src="Images\file system_1.jpg" />
 ## Linux File System and Data Stucture
 
 

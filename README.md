@@ -1,16 +1,16 @@
-# missingskill-learning
+## TABLE OF INDEX
 
-# TABLE OF INDEX
+## 1. [LINUX](https://github.com/poonam-channe06/missingskill-learning/blob/master/linux.md)
 
-1. LINUX 
+    1.1 Linux Commands
+    
+    1.2 Linux File System
 
-   1.1  Linux Commands
+    
+
+ <br/>
    
-   1.2  Linux file system
-   
-   <br/>
-   
- 2. GIT
+## 2. [GIT](https://github.com/poonam-channe06/missingskill-learning/blob/master/git.md)
   
      2.1  Git Introduction
 
@@ -22,9 +22,10 @@
 
      2.5  git Branching
      
-    <br/>
+     
+ <br/>
    
-  3. JAVASCRIPT
+  ## 3. [JAVASCRIPT](https://github.com/poonam-channe06/missingskill-learning/blob/master/javascript.md)
     
      3.1  Basic Building Block of Web Development
      
@@ -46,10 +47,12 @@
      
      3.10  Destructuring
      
-      <br/>
+      
+      
+  <br/>
      
      
-   4. EXTRA SKILLS
+  ## 4. [EXTRA SKILLS](https://github.com/poonam-channe06/missingskill-learning/blob/master/extraskills.md)
    
        4.1  HTML
 

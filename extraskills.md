@@ -17,7 +17,7 @@
 
 <!-- images -->
 
-<p align="center"/><img src="Images\html_1.jpg" width="400" />
+<p align="center"/><img src="Images\html_1.jpg" width="70%" />
 
 <br/>
 <br/>
@@ -156,12 +156,12 @@ p{color:blue}
 <br/>
 
 
-<p align="center"/><img src="Images\css-positionio.png" width="500" />
+<p align="center"/><img src="Images\css-positionio.png" width="70%" />
 
 
-<p align="center"/><img src="Images\css-gridio.png" width="500" />
+<p align="center"/><img src="Images\css-gridio.png" width="70%" />
 
-<p align="center"/><img src="Images\css-flexboxio (2).png" width="500" />
+<p align="center"/><img src="Images\css-flexboxio (2).png" />
 
 
 <br/>
@@ -268,7 +268,7 @@ we can store the metadata also.
 <br/>
 
 
-   <p align="center"/><img src="Images\foreignkeyio.png" width="500" />
+   <p align="center"/><img src="Images\foreignkeyio.png" width="80%" />
 
 <br/>
 <br/>
@@ -293,7 +293,7 @@ we can store the metadata also.
 <p>function of SELECT clause is goes to table which is under execution and display the output.</p>
 
 <br/>
- <p align="center"/><img src="Images\select-clauseio.png" width="500" />
+ <p align="center"/><img src="Images\select-clauseio.png" width="80%">
 
 
 <br/>
@@ -307,7 +307,7 @@ we can store the metadata also.
 
 <br/>
 
- <p align="center"/><img src="Images\where-clauseio.png" width="500" />
+<p align="center"/><img src="Images\where-clauseio.png" width="80%" />
 
 
 <br/>
@@ -440,7 +440,7 @@ ORDER BY 2 DESC;
 
 <br/>
 
-<p align="center"/><img src="Images\functionio.png" width="500" />
+ <p align="center"/><img src="Images\functionio.png" width="70%" />
 
 <br/>
 <br/>
@@ -504,7 +504,7 @@ ORDER BY 2 DESC;
 
 <br/>
 
-<p align="center"/><img src="Images\groupby&having.png" width="500" />
+<p align="center"/><img src="Images\groupby&having.png" width="70%" />
 
 <br/>
 <br/>
@@ -564,7 +564,7 @@ SELECT COL-NAME FROM T1,T2; // Oracle
 SELECT COL-NAME FROM T1 CROSS JOIN T2; // ANSI
 ```
 <br/>
-<p align="center"/><img src="Images\cartesianjoin.png" width="500" />
+<p align="center"/><img src="Images\cartesianjoin.png" width="70%" />
 
 <br/>
 <br/>
@@ -587,7 +587,7 @@ WHERE < JOIN CONDITION >; //ANSI
 <P>T1.COL-NAME = T2.COL-NAME</P>
 <br/>
 <!-- JOIN COONDITION IMAGES -->
-<p align="center"/><img src="Images\innerjoin.png" width="500" />
+<p align="center"/><img src="Images\innerjoin.png" width="70%" />
 
 <br/>
 <br/>
@@ -625,7 +625,7 @@ SELECT COL-NAME FROM T1 NATURAL JOIN T2; // ANSI
 
  <br/>
 <!-- LEFT OUTER DIAGRAM -->
-<p align="center"/><img src="Images\outerjoin.png" width="500" />
+<p align="center"/><img src="Images\outerjoin.png" width="70%" />
 
 <br/>
 <br/>
@@ -677,7 +677,7 @@ WHERE T1.COL-NAME =  T2.COL-NAME; // ANSI
 ```
 <br/>
 
-<p align="center"/><img src="Images\selfjoin.png" width="500" />
+<p align="center"/><img src="Images\selfjoin.png" width="70%" />
 
 <br/>
 <br/>
@@ -688,7 +688,7 @@ WHERE T1.COL-NAME =  T2.COL-NAME; // ANSI
 
 <br/>
 
-<p align="center"/><img src="Images\dependancy_1.jpg" width="500" />
+<p align="center"/><img src="Images\dependancy_1.jpg" width="70%" />
 
 <br/>
 <br/>
@@ -713,7 +713,7 @@ WHERE T1.COL-NAME =  T2.COL-NAME; // ANSI
 <br/><br/>
 <!-- IMAGES -->
 
-<p align="center"/><img src="Images\normalform_1.jpg" width="500" />
+<p align="center"/><img src="Images\normalform_1.jpg" width="70%" />
 
-<p align="center"/><img src="Images\normalform2_1.jpg" width="500" />
+<p align="center"/><img src="Images\normalform2_1.jpg" width="70%" />
 

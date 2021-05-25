@@ -306,13 +306,20 @@ user.spells[1]
 <br/>
 
 
-## Javascript Variables :
+## Javascript Variables 
 
 1. var
 2. let
 3. const
 
 <br/>
+
+<p><strong>Variables</strong> is referred as a container.</p>
+<br/>
+
+<p align="center"/><img src="Images\container.png"/>
+
+</br>
 
 **Rules**
 
@@ -371,7 +378,7 @@ const password = "@1234";
 
 <br/>
 <!-- let and const images -->
-<p align="center"/><img src="Images\letandconst.png" width="550" />
+<p align="center"/><img src="Images\letandconst.png" />
 
 <br/>
 <br/>
@@ -618,12 +625,6 @@ console.log(msg); // Referance Error!!
 ```
 <br/>
 
-### <strong>Variables</strong> is referred as a container.
-<br/>
-
-<p align="center"/><img src="Images\container.png" width="550" />
-
-</br>
 
 </br>
 
@@ -631,7 +632,7 @@ console.log(msg); // Referance Error!!
 ### <strong>Hoisting</strong> in javascript means behaviour of a function or variable can be used before declaration
 <br/>
 
-<p align="center"/><img src="Images\Hoisting.png" width="550" />
+<p align="center"/><img src="Images\Hoisting.png" />
 
 <br/>
 
@@ -665,7 +666,7 @@ console.log(msg); // Referance Error!!
 
 <br/>
 
-<p align="center"/><img src="Images\loops.png" width="550" />
+<p align="center"/><img src="Images\loops.png"  />
 
 <br/>
 
@@ -688,7 +689,7 @@ ii. for in
 
 <br/>
 
-<p align="center"/><img src="Images\loops2.png" width="550" />
+<p align="center"/><img src="Images\loops2.png"  />
 
 <br/>
 <br/>
@@ -700,7 +701,7 @@ ii. for in
 <br/>
 
 <!-- images of functions -->
-<p align="center"/><img src="Images\Functions.png" width="550" />
+<p align="center"/><img src="Images\Functions.png"  />
 
 <br/>
 <br/>
@@ -797,9 +798,9 @@ function addListAfterClick(){
 </br>
 
 <!-- images -->
-<p align="center"/><img src="Images\passbyvalue_1 (1).jpg" width="500" />
+<p align="center"/><img src="Images\passbyvalue_1 (1).jpg"  />
 
-<p align="center"/><img src="Images\passbyreference_1 (1).jpg" width="500" />
+<p align="center"/><img src="Images\passbyreference_1 (1).jpg"  />
 
 <br/>
 
@@ -810,7 +811,7 @@ function addListAfterClick(){
 
 <br/>
 
-<p align="center"/><img src="Images\constructor (1).png" width="500" />
+<p align="center"/><img src="Images\constructor (1).png"  />
 
 
 <br/>
@@ -820,7 +821,7 @@ function addListAfterClick(){
 ## **Constructor** 
 <p><strong>Constructor</strong> isna function which creates instance of object in javascript.</p>
 
-<p align="center"/><img src="Images\constructor2.png" width="500" />
+<p align="center"/><img src="Images\constructor2.png"  />
 
 <br/>
 <br/>

@@ -8,15 +8,20 @@
 
 * HTML tellsbrowsers which parts of webpages is navbar ,header,footer,images and videos are placed etc.
 
+<br/>
 
 > < !DOCTYPE html>
-<p>DOCTYPE stands for document type declaration. It will simply implies that this file is going to use as HTML5 so we can load this file on the browser.</p>
+<p><strong>DOCTYPE</strong> stands for document type declaration. It will simply implies that this file is going to use as HTML5 so we can load this file on the browser.</p>
 
-
+<br/>
 
 <!-- images -->
 
 <p align="center"/><img src="Images\html_1.jpg" width="400" />
+
+<br/>
+<br/>
+<br/>
 
  # CSS
 
@@ -27,6 +32,8 @@
  3. CSS Group Selector
  4. CSS Class Selector
  5. CSS Universal Selector 
+
+<br/>
 
 
 <p> The html selector selects the HTML element by name.</p>
@@ -50,10 +57,10 @@ p{
 </html>
  ```
 
+ <br/>
 
-<p> The id selector selects the id attribute of an HTML element to select a specific element. An id is always unique within the page so it is chosen to select a single, unique element. It is written with the hash character (#)</p>
 
-
+<p> The <strong> id selector</strong> selects the id attribute of an HTML element to select a specific element. An id is always unique within the page so it is chosen to select a single, unique element. It is written with the hash character (#)</p>
 
 ```html
 #paragraph1 {  
@@ -62,10 +69,10 @@ p{
 }  
 ```
 
+<br/>
 
-<p>The grouping selector is used to select all the elements with the same style definitions.Grouping selector is used to minimize the code. Commas are used to separate each selector in grouping.</p>
 
-
+<p>The <strong> grouping selector</strong> is used to select all the elements with the same style definitions.Grouping selector is used to minimize the code. Commas are used to separate each selector in grouping.</p>
 
 
 ``` html
@@ -75,9 +82,11 @@ h1,h2,p {
 }  
 ```
 
+<br/>
 
 
-<p>If we want to specify that only one specific HTML element should be affected then we should use the element name with class selector.</p>
+
+<p>If we want to specify that only one specific HTML element should be affected then we should use the element name with <strong>class selector</strong>.</p>
 
 
 ```html
@@ -86,8 +95,10 @@ h2.center {
     font-size:3rem; 
 }  
 ```
+<br/>
 
-<p>It selects all the elements on the pages.</p>
+
+<p><strong>*</strong> selects all the elements on the pages.</p>
 
 ```html
 * {  
@@ -97,21 +108,29 @@ h2.center {
 }   
 ```
 
+<br/>
 
 ####  There are 3 ways to add the CSS in our page.
 1. Inline CSS
 2. Internal CSS
 3. External CSS
 
-### Inline CSS :  
-<p>Inline CSS is used to apply CSS on a single line or element.</p>
+<br/>
+
+### Inline CSS : 
+<br>
+
+<p><strong>Inline CSS</strong> is used to apply CSS on a single line or element.</p>
 
 ```html
 <p style="color:blue">Hello World!!</p>  
 ```
 
+<br/>
+
 ### Internal CSS :
-<p>Internal css apply in the single document we add the internal css in html file only inside the style tag. </p>
+<br/>
+<p><strong>Internal CSS</strong> apply in the single document we add the internal css in html file only inside the style tag. </p>
 
 ```html
 <style>  
@@ -119,25 +138,35 @@ p{color:blue}
 </style>
 ```
 
+<br/>
 
 ### External CSS :
-<p> It is used to apply CSS on multiple pages or all pages</p>
+<br/>
+
+<p> <strong>External CSS</strong> is used to apply CSS on multiple pages or all pages</p>
 
 ```html
 <link rel="stylesheet" type="text/css" href="style.css">  
 ```
-
 #### In external stylesheet we can  write this.
 ```html
 p{color:blue}  
 ```
 
+<br/>
+
 
 <p align="center"/><img src="Images\css-positionio.png" width="500" />
+
 
 <p align="center"/><img src="Images\css-gridio.png" width="500" />
 
 <p align="center"/><img src="Images\css-flexboxio (2).png" width="500" />
+
+
+<br/>
+<br/>
+<br/>
 
 # SQL
 
@@ -153,24 +182,30 @@ It is designed by data scientist EF Codd. All the data in relational model re st
 we can store the metadata also.
 
 * EF Codd Rules :
------------------------
+
+
+
 1. Data enter into the cell should be single valued or atomic data.
 2. We can store the data in multiple tables and we have to establish  the connection between those two tables using key attribute.
-3.To validate the table we can assign datatype & constraints.
+3. To validate the table we can assign datatype & constraints.
 4. Datatype are madantory but constraints are optional.
 
 
+<br/>
 
 
 ### SQL (Structured Query Language)
 
-> It is a language which is used to communicate with the RDBMS.
+<br/>
 
-> Query Language : it is a language which is used to ciommunicate with DBMS software.
+* It is a language which is used to communicate with the RDBMS.
+
+*  Query Language : it is a language which is used to ciommunicate with DBMS software.
 
 
-##  Types of Constraints :
----
+##  Types of Constraints 
+
+<br/>
 
 1. NOT NULL
 
@@ -182,69 +217,111 @@ we can store the metadata also.
 
 5. Check
 
+<br/>
+
+1. NULL 
+    * NULL is nothing, it is neither zero nor blank space
+    * It will not occupy any space in the memory
+    * Two NULLS are never same in Oracle.
+    * NULL represents unknown value
+    * Any arithmetic operation we perform on NULL will result in NULL itself. For ex, 100000 + NULL
+    = NULL ; 100000 * NULL = NULL .
+
+<br/>
+
+2. NOT NULL 
+
+    * NOT NULL will ensure atleast some value should be present in a column.
 
 
-* NULL :
-  * NULL is nothing, it is neither zero nor blank space
-  * It will not occupy any space in the memory
-  * Two NULLS are never same in Oracle.
-  * NULL represents unknown value
-  * Any arithmetic operation we perform on NULL will result in NULL itself. For ex, 100000 + NULL
-   = NULL ; 100000 * NULL = NULL .
+<br/>
 
+3. UNIQUE 
 
-* NOT NULL :
-
-  * NOT NULL will ensure atleast some value should be present in a column.
-
-
-
-
-* UNIQUE :
     * It will not allow any duplicates in a column.
     * UNIQUE column can take multiple NULL (s).
 
+<br/>
 
-* Primary Key :
-  * It is the combination of NOT NULL and UNIQUE.
-  * Only one PK is allowed in a table.
-  * PK identifies a record uniquely in a table.
- Creation of PK is not mandatory, but it is highly recommended to create
 
-* Foreign Key:
-   * FK creates relationship between any two tables.
-   * FK is also called as referential integrity constraints.
-   * FK is created on the child table.
-   * FK can take both NULL and duplicate values.
-   * To create FK, the master table should have PK defined on the common column of the master table.
-   *  We can have more than 1 FK in a given table.
+4. Primary Key 
+
+    * It is the combination of NOT NULL and UNIQUE.
+    * Only one PK is allowed in a table.
+    * PK identifies a record uniquely in a table.
+    Creation of PK is not mandatory, but it is highly recommended to create
+
+
+<br/>
+
+
+5.  Foreign Key
+
+    * FK creates relationship between any two tables.
+    * FK is also called as referential integrity constraints.
+    * FK is created on the child table.
+    * FK can take both NULL and duplicate values.
+    * To create FK, the master table should have PK defined on the common column of the master table.
+    *  We can have more than 1 FK in a given table.
+
+<br/>
+<br/>
 
 
    <p align="center"/><img src="Images\foreignkeyio.png" width="500" />
 
-* CHECK:
-   * It is used to provide additional validations as per the customer requirements.
-    Examples; 
-    1) sal > 0
-    2) empnum should start with 1
-    3) commission should be between 1000 & 5000
+<br/>
+<br/>
+
+6. CHECK
+    * It is used to provide additional validations as per the customer requirements.
+        Examples; 
+        1) sal > 0
+        2) empnum should start with 1
+        3) commission should be between 1000 & 5000
 
 
 
-
+<br/>
+<br/>
 
 <!-- Select clause img -->
+
+**SELECT clause**
+<p><strong>SELECT</strong> clause executes after the execution of <strong>FROM</strong>  clause</p>
+<p>We can give multiple column name or espressionas an argument.</p>
+<p>function of SELECT clause is goes to table which is under execution and display the output.</p>
+
+<br/>
  <p align="center"/><img src="Images\select-clauseio.png" width="500" />
 
 
+<br/>
+<br/>
+
+**WHERE clause**
+<p><strong>WHERE</strong> clause is used to filter the condition.</p>
+<p>It executes row by row.</p>
+<p>We can not write ALIAS name in where clause.</p>
+<p>We can write multiple conditions in where clause.</p>
+
+<br/>
 
  <p align="center"/><img src="Images\where-clauseio.png" width="500" />
 
 
-## Operators 
--------
+<br/>
+<br/>
 
-* Operators are classified into 
+## **Operators** 
+-------
+<p><strong>Operators</strong> are the characters which we used between the expression.</p>
+<br/>
+
+### Operators are classified into 
+
+<br/>
+
 
 1. Arithmetic Operators(+,-,*,/)
 2. Relational Operators(<,>,>=,<=,<>,!=)
@@ -273,6 +350,9 @@ we can store the metadata also.
 
 > NOTE : for all the operations we can refer this table
 
+<br/>
+<br/>
+
 <p>List all the employees in department no 00 and 30</p>
 
 ```SQL
@@ -280,12 +360,16 @@ SELECT * FROM EMP
 WHERE DEPTNO IN(10,30);
 ```
 
+<br/>
+
+
 <p>List all the employees whose name start with 'A'</p>
 
 ```SQL
 SELECT * FROM EMP 
 WHERE ENAME LIKE 'A%';
 ```
+<br/>
 
 
 <p>List all the employees whose name IS having at least 2 Ls</p>
@@ -294,6 +378,7 @@ WHERE ENAME LIKE 'A%';
 SELECT * FROM EMP 
 WHERE ENAME LIKE "_LL_%";
 ```
+<br/>
 
 
 <P>List the employees whose salary is between 2000 and 3000</P>
@@ -304,21 +389,26 @@ SELECT * FROM EMP
 WHERE SAL BETWEEN 2000 AND 3000;
 ```
 
+<br/>
+
+
 <p>List all the employees whose commission is null</p>
 
 ```SQL
 SELECT * FROM EMP 
 WHERE COMM IS NULL;
 ```
+<br/>
+<br/>
 
-
-### SORTING
+### **SORTING**
 * It arranges the data either in ascending / descending order
 * Ascending – ASC / Descending – DESC
 * We can sort the data using ORDER BY
 * By default, the data is always arranged in ASC order
 * ORDER BY should be used always as the last statement in the SQL query.
 
+<br/>
 
 <p>Arrange all the employees by their salary</p>
 
@@ -326,6 +416,8 @@ WHERE COMM IS NULL;
 SELECT * FROM EMP 
 ORDER BY SAL;
 ```
+<br/>
+
 <p>Arrange ename, sal, job, empno and sort by descending order of salary</p>
 
 
@@ -335,20 +427,28 @@ SELECT ENAME,SAL,JOB,EMPNO
 ORDER BY 2 DESC;
 ```
 
+
 >NOTE: In the above query we have – order by 2 – thus it arranges only the 2nd column salary in the DESCENDING ORDER.
 
+<br/>
+<br/>
 
 
+## **Functions** 
 
-## Functions :
+<p><strong>Functions</strong> is a set of code or block of instruction. It is used to perform some particular task.</p>
 
-
+<br/>
 
 <p align="center"/><img src="Images\functionio.png" width="500" />
 
+<br/>
+<br/>
 
+### Single Row Functions 
+<p></p>
 
-### Single Row Functions :
+<br/>
 
 | SRF                       | Explanation   | 
 | -------------             |  ------------- | 
@@ -371,13 +471,17 @@ ORDER BY 2 DESC;
 | SELECT TO_CHAR(SYSDATE,'DD')
 | SELECT TO_CHAR(SYSDATE,'YY')
 | SELECT TO_CHAR(SYSDATE,'DY')
-|                                                                     |
+                                                                
 
   
 
+<br/>
+<br/>
 
+## Multirow Functions 
+<p></p>
 
-## Multirow Functions :
+<br/>
 
 | MRF           | Syntax                        | Explanation          |
 | ------------- | -------------                 | --------------       |
@@ -385,24 +489,33 @@ ORDER BY 2 DESC;
 | MIN           | MIN(COLNAME OR EXPRESSION)    |  It is used to obatin the smallest value. |
 | SUM           | SUM(COLNAME OR EXPRESSION)    |  It is used to obtain sum of values.      |
 | AVG           | AVG(COLNAME OR EXPRESSION)    | It is used to obtain average of the values.||
-| COUNT         | COUNT( * / COLNAME OR EXPRESSION) | It is used to obtain number of values.  |
-|               |                                   |                                         |
+| COUNT         | COUNT( * / COLNAME OR EXPRESSION) | It is used to obtain number of values. 
+
+<br/>
+<br/>                                                                   
 
 
-
-
+<br/>
+<br/>
 
 ## SUBQUERY :
+<p>A query written inside another query called as <strong>Subquery.</strong></p>
 
-<p align="center"/><img src="Images\subquery_1.jpg" width="500" />
 
+<br/>
 
-* When do we go for Subquery?
+<p align="center"/><img src="Images\groupby&having.png" width="500" />
+
+<br/>
+<br/>
+
+### When do we go for Subquery?
 <p> 1. When we have unknown values we will go for subquery.</p>
 <p> 2. When data to be display is in one table but condition present in another table then we will go for subquery.</p>
 
+<br/>
 
-* Conditions to write Subquery?
+### Conditions to write Subquery?
 <p> 1. Only one column should be return in select clause of inner query.</p>
 <p> 2. Column name of SELECT clause in inner query and column name of WHERE clause of outer query should have same data type .</p>
 
@@ -416,13 +529,15 @@ ORDER BY 2 DESC;
 
 
 
+<br/>
+<br/>
 
+## JOINS 
 
-## JOINS :
-
-* Retrival of data from multiple table simulteneously is called as joins.
+<p> Retrival of data from multiple table simulteneously is called as joins.</p>
 
 <p>There are five types of joins</p>
+
 1. Cartesian join or Cross join
 
 2. Inner join/Equi join
@@ -434,8 +549,11 @@ ORDER BY 2 DESC;
 5. Self join
 
 
+<br/>
 
-1] CARTESIAN JOIN : All the records of table 1 merge with records of table 2.
+**CARTESIAN JOIN :** All the records of table 1 merge with records of table .
+
+
 
 Syntax:
 ```SQL
@@ -445,9 +563,13 @@ SELECT COL-NAME FROM T1,T2; // Oracle
 ```SQL
 SELECT COL-NAME FROM T1 CROSS JOIN T2; // ANSI
 ```
+<br/>
 <p align="center"/><img src="Images\cartesianjoin.png" width="500" />
 
-2] INNER JOIN : It is used to get matched records.
+<br/>
+<br/>
+
+**INNER JOIN :** It is used to get matched records.
 
 Syntax:
 ```SQL
@@ -459,15 +581,18 @@ WHERE < JOIN CONDITION >; // Oracle
 SELECT COL-NAME FROM T1 INNER JOIN T2 
 WHERE < JOIN CONDITION >; //ANSI
 ```
+<br/>
 
 <p>Join condition is where two tables are merged.</p>
 <P>T1.COL-NAME = T2.COL-NAME</P>
-
+<br/>
 <!-- JOIN COONDITION IMAGES -->
 <p align="center"/><img src="Images\innerjoin.png" width="500" />
 
+<br/>
+<br/>
 
-3] NATURAL JOIN : It is same as the inner join but here we no need to write the join condition.
+**NATURAL JOIN :** It is same as the inner join but here we no need to write the join condition.
 
 Syntax:
 
@@ -476,14 +601,16 @@ SELECT COL-NAME FROM T1 NATURAL JOIN T2; // ANSI
 ````
 
 
-4] OUTER JOIN: Whenever we want matched records along with the unmatched records we will go for outer join.
+ **OUTER JOIN :** Whenever we want matched records along with the unmatched records we will go for outer join.
 
 * Types of Outer join:
  1. left outer join
  2. right outer join
  3. full outer join
 
- 1] Left outer join : To obtain matched records along wth unmatched records of left table.
+ <br/>
+
+ **Left outer join :**  To obtain matched records along wth unmatched records of left table.
  Syntax:
 
  ```SQL
@@ -495,10 +622,15 @@ SELECT COL-NAME FROM T1 NATURAL JOIN T2; // ANSI
  SELECT COL-NAME FROM T1 LEFT OUTER JOIN T2
  WHERE T1.COL-NAME = T2.COL-NAME; // ANSI
  ```
+
+ <br/>
 <!-- LEFT OUTER DIAGRAM -->
 <p align="center"/><img src="Images\outerjoin.png" width="500" />
 
-2] Right outer join : To obtain matched records along wth unmatched records of right table.
+<br/>
+<br/>
+
+**Right outer join :** To obtain matched records along wth unmatched records of right table.
 
  Syntax:
 
@@ -512,8 +644,10 @@ SELECT COL-NAME FROM T1 NATURAL JOIN T2; // ANSI
  WHERE T1.COL-NAME = T2.COL-NAME; // ANSI
  ```
 
+ <br/>
 
-3] Full outer join : To obtain matched records along wth unmatched records of both the table.
+
+**Full outer join :** To obtain matched records along wth unmatched records of both the table.
 
  Syntax:
 
@@ -521,13 +655,14 @@ SELECT COL-NAME FROM T1 NATURAL JOIN T2; // ANSI
  SELECT COL-NAME FROM T1 FULL OUTER JOIN T2
  WHERE T.COL-NAME = T2.COL-NAME; // ANSI
  ```
+<br/>
 
 
-
-5] SELF JOIN : Joining two same table is called as self join.
+ **SELF JOIN :** Joining two same table is called as self join.
 
 #### When we go for self join ?
 <p>Whenever data present in the same table but they are in different rows.</p>
+<br/>
 
 Syntax:  
 
@@ -540,15 +675,26 @@ WHERE T1.COL-NAME =  T2.COL-NAME; // ORACLE
 SELECT COL-NAME FROM T1 JOIN T2
 WHERE T1.COL-NAME =  T2.COL-NAME; // ANSI
 ```
+<br/>
 
 <p align="center"/><img src="Images\selfjoin.png" width="500" />
 
-## DEPENDANCY : 
+<br/>
+<br/>
+<br/>
+
+## DEPENDANCY 
+<p></p>
+
+<br/>
 
 <p align="center"/><img src="Images\dependancy_1.jpg" width="500" />
 
+<br/>
+<br/>
 
-## NORMALIZATION :
+## NORMALIZATION 
+<br/>
 
 #### What are the Normalization ?
 
@@ -558,11 +704,13 @@ WHERE T1.COL-NAME =  T2.COL-NAME; // ANSI
  The databse normalization is structured way to decompose the data to eliminate the redundancy and undesirable anomaly.
 <p/>
 
+<br/>
+
 >Redundancy: Repetition of the data or unwanted data.
 
 >Anomaly : Side effects caused by the repetiotion called as anomaly.
 
-
+<br/><br/>
 <!-- IMAGES -->
 
 <p align="center"/><img src="Images\normalform_1.jpg" width="500" />

@@ -8,7 +8,7 @@
 * It keeps your files well managed and maintained
 
 <br/>
-<!-- Github Branching -->
+<!-- Github -->
 
 <p align="center"/><img src="Images\github_1.jpg" width="60%" />
 
@@ -159,6 +159,3 @@ git pull
 <br/>
 <p align="center"/><img src="Images\github3_1 (1).jpg" width ="60%"/>
 
-
-
-<!--  -->

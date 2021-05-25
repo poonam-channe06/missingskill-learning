@@ -324,18 +324,52 @@ user.spells[1]
 
 
 ### 1. var
-<p>It is a type of javascript variable.Which is used to store the value</p>
+<p><strong>var</strong> is a type of javascript variable.Which is used to store the value.</p>
+<p><strong>var</strong> declarations are globally scoped or fuction scoped.</p>
+<p><strong>var</strong> variables can be re-decalred and updated within the same scope and won't get an error.</p>
+<p><strong>var</strong> is hoisted to top of their scope.</p>
 
 <br/>
 
 ```js
-var george : "These pretzelas are making me thirsty" + "!";
+var username = "poonam@123";
 
- => "These pretzelas are making me thirsty!"
+ => "poonam@123"
  ```
 
 <br/>
 
+### 2. let
+<p><strong>let</strong> is use for variable declaration.</p>
+<p><strong>let</strong> is a block scope.Anything within curly {} braces called block. So variable declared in a block with let is only avaible for use within that block.</p>
+<p>A variable declared with let can be updated within scope,but cannot be re-declared within the scope.</p>
+<p><strong>let</strong> declaration are hoisted to the top.</p>
+<br/>
+
+```js
+let age = 23";
+
+ => 23
+ ```
+
+<br/>
+
+### 3. const
+<p><strong>const</strong> is use for maintain the constant values.</p>
+<p><strong>const</strong> declaration are block scoped.It can only access within the block they were declared.</p>
+<p><strong>const</strong> value remains same whithin its scope.It cannot be updated or re-declared.</p>
+<p><strong>const</strong> object can not be updated but properties of the object can be updated.</p>
+<p><strong>const</strong> declaration are hoisted to the top.</p>
+
+<br/>
+
+```js
+const password = "@1234";
+
+ => "@1234"
+ ```
+
+<br/>
 <!-- let and const images -->
 <p align="center"/><img src="Images\letandconst.png" width="550" />
 
@@ -354,6 +388,9 @@ var george : "These pretzelas are making me thirsty" + "!";
 
 ### AND **&&**
 
+<p><strong>AND</strong> operator represented with the the two ampersands.</p>
+<p>If bothe the arguments are<strong>true</strong>,it returns true, otherwise <strong>false</strong>.</p>
+
 <br/>
 
 ```JS
@@ -371,6 +408,8 @@ var lastName = "Smith";
 
 
 ### OR  **||**
+<p><strong>OR</strong> operator represented with the the two vertical lines.</p>
+<p>If any of its arguments are <strong>true</strong>,it returns true,otherwise it returns <strong>false</strong>.</p>
 
 <br/>
 
@@ -383,6 +422,10 @@ if(firstName === "Billy" && lastName === "eilish"){
 <br/>
 
 ### NOT **!**
+<p><strong>NOt</strong> operator represented with an exclamation sign.</p>
+<p> It returns the invert values.</p>
+
+<br/>
 
 ```JS
 if(!(name === "Bob")){
@@ -406,6 +449,7 @@ if(!(name === "Bob")){
 <br/>
 
 ### 1. if 
+<p><strong>if</strong> condition we use if we want to eexecute something based on some condition.</p>
 
 <br/>
 
@@ -420,7 +464,9 @@ name = "susy";
 ```
 <br/>
 
-### 2. if-else
+### 2. else
+<p><strong>else</strong> statement when we want to execute the code every time when if condition evaluates false.</p>
+
 
 <br/>
 
@@ -435,6 +481,7 @@ if(name === "billy"){
 <br/>
 
 ### 3. else if
+<p><strong>else-if</strong> consdition is use when we want multiple else condition after if statement.</p>
 
 <br/>
 
@@ -452,6 +499,7 @@ if(name === "billy"){
 <br/>
 
 ### 4. tenray operator 
+<p><strong>tenery</strong> operator is used to assigning value depending on the condition.</p>
 
 <br/>
 
@@ -467,7 +515,7 @@ var password = isUserValid(true)? "You may enter" : "Access Denied"
 
 ### 5. switch
 
-<p>When there is more than one different cases the we will go for the switch.</p>
+<p>When there is more than one different cases the we will go for the <strong>switch</strong>.</p>
 
 <br/>
 
@@ -570,6 +618,80 @@ console.log(msg); // Referance Error!!
 ```
 <br/>
 
+### <strong>Variables</strong> is referred as a container.
+<br/>
+
+<p align="center"/><img src="Images\container.png" width="550" />
+
+</br>
+
+</br>
+
+
+### <strong>Hoisting</strong> in javascript means behaviour of a function or variable can be used before declaration
+<br/>
+
+<p align="center"/><img src="Images\Hoisting.png" width="550" />
+
+<br/>
+
+
+## Javascript loops 
+
+<p><strong>Loops</strong> are the execution of set of iinstructions repeatedly while some condition evaluates to true.</p>
+
+1. for loop
+2. while loop
+3. do while
+4. forEach
+
+### 1. for loop
+
+<p><strong>for loop</strong> loops through the block of code until the conuter reaches to the specified number.</p>
+
+<br/>
+
+
+### 2. while loop
+
+<p><strong>while loop</strong> loops through the block of code until the consdition reaches to the specified evaluates to true.</p>
+
+<br/>
+
+
+### 3. do while loop
+
+<p><strong> do while loop</strong> loops through the block of code and then condition is evaluated.If the condition is true,the statement is repeated as long as the specified condition is true.</p>
+
+<br/>
+
+<p align="center"/><img src="Images\loops.png" width="550" />
+
+<br/>
+
+### 4. forEach
+i. for of
+
+ii. for in
+
+<p><strong>forEach</strong> method is used to iterate over the elements of an array.</p>
+
+<br/>
+
+### i. for of
+<p><strong>for of</strong> loops over iterable objects such as aarays,strings etc..</p>
+
+<br/>
+
+### i. for in
+<p><strong>for in</strong> loops through the properties of an object.</p>
+
+<br/>
+
+<p align="center"/><img src="Images\loops2.png" width="550" />
+
+<br/>
+<br/>
 
 ## Javascript Functions 
 
@@ -659,10 +781,83 @@ function addListAfterClick(){
 <br/>
 
 
-## Pass By Value vs Pass By Referance 
+## Pass By Value vs Pass By Reference 
 <br/>
+
+
+### **Pass By Value**
+<p><strong>pass by value</strong>a function argumeents are always passed by value. It means that javascript copies the values of passing variables into arguments inside of the function.</p>
+
+</br>
+
+### **Pass By Reference** 
+<p>In <strong>pass by reference</strong> instead of making a copy of the original,we are making a reference to the original value.So the change made on the reference is actually changing original.</p>
+<p>In jvascript only arrays and objects follow <strong>pass by reference.</strong></p>
+
+</br>
 
 <!-- images -->
 <p align="center"/><img src="Images\passbyvalue_1 (1).jpg" width="500" />
 
 <p align="center"/><img src="Images\passbyreference_1 (1).jpg" width="500" />
+
+<br/>
+
+
+## **Reference Type** 
+<p><strong>Reference type</strong> is a non-primitive type which are not defined by the programming lanuage.</p>
+<p>Objects are what called the <strong>Reference type</strong> in javascript.</p>
+
+<br/>
+
+<p align="center"/><img src="Images\constructor (1).png" width="500" />
+
+
+<br/>
+
+
+
+## **Constructor** 
+<p><strong>Constructor</strong> isna function which creates instance of object in javascript.</p>
+
+<p align="center"/><img src="Images\constructor2.png" width="500" />
+
+<br/>
+<br/>
+<br/>
+
+## **Destructuring**
+
+<p>Destructuring assignment take value from arrays or properties from objects and set them as aalocal variables. It is a technique that can make our javascript code more concise and readable.</p>
+
+<br/>
+
+```js
+  // Object Destructuring
+  const display =(person) =>{
+      const{name,age} =person
+      console.log(name); //Prashant
+      console.log(age); //19
+
+  }
+
+  const display_2 = ({name:first-name,age}) =>{
+      const name = "Poonam";
+      console.log(first_name); //Prashant
+      console.log(name); //Poonam
+      console.log(age); //19
+  }
+
+  let person = {
+      name:"Prashant",
+      age:19,
+      gender:"Male"
+  }
+```
+
+<br/>
+
+<p align="center"/><img src="Images\destructuring_1.jpg"  />
+
+
+<p align="center"/><img src="Images\destructuring_1.jpg"  />
